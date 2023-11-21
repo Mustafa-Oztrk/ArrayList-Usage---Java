@@ -1,17 +1,43 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        // ArrayList, birden fazla değeri saklayabilen bir veri yapısıdır.
+        // ArrayList içerisinde farklı veri tiplerini tutabilirsiniz.
+        // İçerisine hangi veri tiplerini saklamak isterseniz onları ekleyebilirsiniz.
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+        ArrayList<Object> hayvanlar = new ArrayList<>();
+        hayvanlar.add("Köpek");
+        hayvanlar.add("Kedi");
+        hayvanlar.add(10);
+
+        // Ekrana ArrayList'in kaç tane eleman içerdiğini yazar.
+        System.out.println(hayvanlar.size());
+
+        // ArrayList içindeki belirli bir indeksteki elemanı siler.
+        System.out.println(hayvanlar.remove(0));
+
+        // ArrayList içindeki tüm elemanları siler.
+        hayvanlar.clear();
+
+        // ArrayList içinde belirli bir indeksteki elemanı değiştirir.
+        hayvanlar.set(0, "balık");
+
+        // ArrayList'ı farklı veri tipleri ile tanımlayabilirsiniz.
+        ArrayList<Object> evcilHayvanlar = new ArrayList<>();
+        evcilHayvanlar.add("Köpek");
+        evcilHayvanlar.add("Kedi");
+
+        // ArrayList içinde sadece belirli bir veri tipini saklamak için tür belirtilebilir.
+        ArrayList<Integer> dogumTarihi = new ArrayList<>();
+        dogumTarihi.add(2003);
+        dogumTarihi.add(2005);
+
+        // String dizisi oluşturmak için:
+        String[] isimler = new String[]{"Sude", "Mustafa", "Ebru", "Asiye"};
+
+        // Integer dizisi oluşturmak için:
+        Integer[] yaslar = new Integer[]{20, 15, 30};
     }
 }
