@@ -1,3 +1,49 @@
+[EN]
+# ArrayList Usage - Java
+
+This simple Java program demonstrates the usage of the `ArrayList` class. `ArrayList` is a data structure that can store multiple values and represents a dynamically-sized collection of elements.
+
+## How It Works
+
+This program utilizes the `main` function inside the `Main` class to showcase the usage of the `ArrayList` structure. Its functionalities include:
+
+1. Creating an `ArrayList` and adding elements to it.
+2. Retrieving the number of elements in the `ArrayList`.
+3. Removing an element at a specific index in the `ArrayList`.
+4. Clearing all elements in the `ArrayList`.
+5. Replacing an element at a specific index in the `ArrayList`.
+6. Declaring `ArrayList` with different data types.
+
+## Code Explanation
+
+- You can store various data types using `ArrayList<Object>`.
+- You can add new elements to the `ArrayList` using the `add` method.
+- Obtain the size of the `ArrayList` using the `size` method.
+- Remove an element at a specific index using the `remove` method.
+- Clear all elements using the `clear` method.
+- Change an element at a specific index using the `set` method.
+- Declare `ArrayList` with different data types (e.g., `ArrayList<Integer>`, `ArrayList<String>`).
+
+## How to Use
+
+1. Download the code to your computer.
+2. Compile it using a Java compiler (`javac Main.java`).
+3. Run the generated `.class` file (`java Main`).
+
+## Considerations
+
+- Due to the wide usage and flexibility of `ArrayList`, it's highly suitable for storing different data types and especially object types.
+- Be cautious when mixing data types and ensure proper handling of type conversions.
+
+This simple example demonstrates the basic usage of the `ArrayList` class.
+
+---
+
+I hope these explanations help!
+
+
+
+[TR]
 # ArrayList Kullanımı - Java
 
 Bu basit Java programı, `ArrayList` sınıfının kullanımını gösterir. `ArrayList`, birden fazla değeri saklayabilen ve değişken büyüklükteki veri koleksiyonunu temsil eden bir veri yapısıdır.
